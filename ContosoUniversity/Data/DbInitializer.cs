@@ -18,57 +18,65 @@ namespace ContosoUniversity.Data
             var alexander = new Student
             {
                 FirstMidName = "Carson",
-                LastName = "Alexander",
-                EnrollmentDate = DateTime.Parse("2016-09-01")
+                LastName = "Alexander", 
+                EnrollmentDate = DateTime.Parse("2016-09-01"),
+                Age = 16
             };
 
             var alonso = new Student
             {
                 FirstMidName = "Meredith",
-                LastName = "Alonso",
-                EnrollmentDate = DateTime.Parse("2018-09-01")
+                LastName = "Alonso", 
+                EnrollmentDate = DateTime.Parse("2018-09-01"),
+                Age = 19
             };
 
             var anand = new Student
             {
                 FirstMidName = "Arturo",
-                LastName = "Anand",
-                EnrollmentDate = DateTime.Parse("2019-09-01")
+                LastName = "Anand", 
+                EnrollmentDate = DateTime.Parse("2019-09-01"),
+                Age = 18
             };
 
             var barzdukas = new Student
             {
                 FirstMidName = "Gytis",
                 LastName = "Barzdukas",
-                EnrollmentDate = DateTime.Parse("2018-09-01")
+                EnrollmentDate = DateTime.Parse("2018-09-01"), 
+                Age = 16
             };
 
             var li = new Student
             {
                 FirstMidName = "Yan",
                 LastName = "Li",
-                EnrollmentDate = DateTime.Parse("2018-09-01")
+                EnrollmentDate = DateTime.Parse("2018-09-01"),
+                Age = 16
             };
 
             var justice = new Student
             {
                 FirstMidName = "Peggy",
                 LastName = "Justice",
-                EnrollmentDate = DateTime.Parse("2017-09-01")
+                EnrollmentDate = DateTime.Parse("2017-09-01"),
+                Age = 17
             };
 
             var norman = new Student
             {
                 FirstMidName = "Laura",
                 LastName = "Norman",
-                EnrollmentDate = DateTime.Parse("2019-09-01")
+                EnrollmentDate = DateTime.Parse("2019-09-01"),
+                Age = 16
             };
 
             var olivetto = new Student
             {
                 FirstMidName = "Nino",
                 LastName = "Olivetto",
-                EnrollmentDate = DateTime.Parse("2011-09-01")
+                EnrollmentDate = DateTime.Parse("2011-09-01"),
+                Age = 17
             };
 
             var students = new Student[]
@@ -269,7 +277,7 @@ namespace ContosoUniversity.Data
                 new Enrollment {
                     Student = alexander,
                     Course = chemistry,
-                    Grade = Grade.A
+                    Grade = Grade.W
                 },
                 new Enrollment {
                     Student = alexander,
@@ -294,7 +302,7 @@ namespace ContosoUniversity.Data
                 new Enrollment {
                     Student = alonso,
                     Course = composition,
-                    Grade = Grade.B
+                    Grade = Grade.W
                 },
                 new Enrollment {
                     Student = anand,
@@ -308,7 +316,7 @@ namespace ContosoUniversity.Data
                 new Enrollment {
                     Student = barzdukas,
                     Course = chemistry,
-                    Grade = Grade.B
+                    Grade = Grade.I
                 },
                 new Enrollment {
                     Student = li,
